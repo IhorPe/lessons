@@ -1,0 +1,180 @@
+@import url("reset.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@font-face {
+	font-family: 'Gunny Rewritten';
+	src: url('../fonts/GunnyRewritten.woff2') format('woff2'), url('../fonts/GunnyRewritten.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Boomboom';
+	src: url('../fonts/Boomboom.woff2') format('woff2'), url('../fonts/Boomboom.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Bicubik';
+	src: local('Bicubik'), url('../fonts/bicubik.woff2') format('woff2'), url('../fonts/bicubik.woff') format('woff'), url('../fonts/bicubik.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Eurofurence';
+	src: url('../fonts/Eurofurencelight.woff2') format('woff2'), url('//fonts/Eurofurencelight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+body { 
+font-size:18px;
+
+}
+.soder {
+	text-decoration: underline;
+	font-style: oblique;
+}
+.kto {
+	font-family: 'Bicubik';
+}
+.kto1 {
+	font-family: 'Bicubik';
+	font-style: italic;
+	color: darkorange;
+}
+.sim{
+	color: green;
+	font-size: 38px;
+	font-family: "Gunny Rewritten";
+}
+.title1{
+	font-size: 30px;
+	color: blue;
+	text-decoration: line-through;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.title11{
+	font-size: 30px;
+	color: rgb(145, 13, 79);
+	text-decoration: line-through;
+	font-family: "Montserrat";
+	text-align: center;
+	letter-spacing: 15px;
+	font-weight: 600;
+}
+.mark{
+	font-size: 22px;
+	font-style: italic;
+}
+.title {
+	font-size: 90px;
+	text-align: center;
+	color: red;
+ 	font-family: "Comforter";
+	text-shadow: 3px 3px 7px blueviolet;
+} 
+.interest{
+	font-size: 35px;
+	text-decoration: overline;
+	color: chocolate;
+	font-weight: 800;
+}
+.razn{
+	font-family: 'Boomboom';
+	color: rgb(178, 243, 47);
+}
+.razn1{
+	font-family: 'Boomboom';
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.575);
+}
+.brit1{
+	font-family: 'Montserrat';
+	line-height: 1.75;
+}
+.brit{
+	font-family: 'Montserrat';
+	line-height: 1.3;
+	word-spacing: 6px;
+	color: darkslategray;
+}
+.brit12{
+	font-family: 'Montserrat';
+	text-transform: capitalize;
+}
+.brit11{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: cadetblue;
+}
+.moysim {
+	font-family: 'Oi';
+	text-align: center;
+	color: indigo;
+	font-size: 44px;
+	text-shadow: 3px 3px 10px yellow;
+}
+.toy {
+	font-size: 36px;
+	font-family: 'Alumni Sans Pinstripe';
+	text-transform: lowercase;
+}
+.toy1 {
+	font-size: 30px;
+	font-family: 'Alumni Sans Pinstripe';
+	font-weight: 600;
+}
+.khara {
+	color:seagreen;
+	text-indent: 50px;
+
+}
+.khara1 {
+	color:rgb(161, 10, 93);
+	text-transform: uppercase;
+
+}
+.dost{
+	font-family: 'Eurofurence';
+	font-size: 30px;
+	text-align: justify;
+	color: red;
+	font-weight: 600;
+}
+.dost1{
+	font-family: 'Gunny Rewritten';
+	font-size: 30px;
+	font-style: italic;
+	text-align: right;
+	color: yellow;
+}
+.dost2{
+	font-family: 'Eurofurence';
+	font-size: 25px;
+	font-style: oblique;
+	color: green;
+
+}
+.dost3{
+	
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.dost4{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, fantasy;
+	white-space: nowrap; 
+}
+.foot{
+	font-family: 'Oi';
+	font-size: 25px;
+	color: darkolivegreen;
+}
