@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body{
+   font-family: 'Poppins';
+   font-weight: 300;
+   color: #6C757D;
+   font-size: 14px;
+   margin-top: 20px;
+}
+.title1,.title2{
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 1.6;
+   color: #212529;
+}
+.title1{
+   width: 400px;
+   margin-bottom: 40px;
+}
+.title2{
+   width: 605px;
+   margin-bottom: 40px;
+}
+p{
+   line-height: 1.79;
+   margin-bottom: 42px;
+}
+.container-img2{
+   max-width: 1240px;
+   font-size: 0;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 88px;
+}
+.container{
+   max-width: 816px;
+   margin: 0 auto;
+}
+.img1{
+   margin-right: 15px;
+}
+.img2{
+   margin-left: 15px;
+}
+.container-img{
+   max-width: 1240px;
+   display: block;
+   margin: 0 auto;
+   margin-top: 88px;
+   margin-bottom: 65px;
+}
+/* homework training */
+.practic{
+   width: 700px;
+   margin: 80px auto;
+}
+.text-block {
+   width: 400px;
+   height: 300px;
+   overflow: scroll;
+   margin: 0 auto;
+}
+.text-inline {
+   font-size: 20px;
+   background-color: rgb(181, 181, 221);
+   display: block;
+   width: 300px;
+   margin: 50px auto 50px;
+   color:rgb(209, 93, 10);
+}
+.link{
+   background-color: #a8e713;
+   font-size: 22px;
+   color: #f73707;
+   display: inline-block;
+   margin: 20px 50px; 
+}
+.list{
+   font-size: 0;
+}
+.list-li{
+   background-color: #28e67d;
+   display: inline-block;
+   padding: 5px 20px;
+   font-size: 18px;
+}
