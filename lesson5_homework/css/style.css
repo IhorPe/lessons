@@ -38,9 +38,11 @@ p{
 }
 .img1{
    margin-right: 15px;
+   font-size: 14px;
 }
 .img2{
    margin-left: 15px;
+   font-size: 14px;
 }
 .container-img{
    max-width: 1240px;
