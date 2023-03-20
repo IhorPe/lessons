@@ -1,0 +1,104 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+body{
+	font-family: "Comfortaa", sans-serif;
+	font-size: 20px;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}   
+.main {
+	background: url(../img/girl.jpg)  center / cover no-repeat;
+	padding: 130px 0;
+	margin-bottom: 20px;
+}
+.main__text p{
+	background-color: aquamarine;
+	color: blue;
+	max-width: 600px;
+	padding: 80px;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.5;
+	border-radius: 20px;
+	text-align: center;
+	
+}
+[class*="__title"] {
+	font-size: 35px;
+	text-align: center;
+	font-weight: 700;
+}
+.icon__text,
+.design__text,
+.content__text {
+	line-height: 1.5;
+	padding: 15px 60px;
+	border-radius: 20px;
+}
+.icon__text{
+	background-color: rgb(146, 146, 247); 
+} 
+.design__text{
+	margin-bottom: 20px; 
+	padding-bottom: 200px;
+	background: url(../img/rec.svg) 85% 80% no-repeat,
+	 				url(../img/rec2.svg) 15% 80% no-repeat,
+					url(../img/oval2.svg) 67% 9% no-repeat,
+					url(../img/oval1.svg) 95% 5% no-repeat,
+					url(../img/shape.svg) 50% 50% no-repeat,
+					url(../img/dotted.svg) 50% 80% no-repeat,
+					url(../img/dotted1.svg) 30% 50% no-repeat,
+					url(../img/dotted2.svg) 60% 60% no-repeat,
+					url(../img/dotted3.svg) 70% 70% no-repeat,
+					url(../img/dotted4.svg) 40% 40% no-repeat,
+					url(../img/oval.svg) 5% 95% no-repeat;
+	background-color: rgb(10, 192, 224);
+} 
+.icon__text p{
+	background: url(../img/button.svg) 14% 85% no-repeat,
+					url(../img/call.svg) 28% 85% no-repeat,
+					url(../img/instagram.svg) 42% 80% no-repeat,
+					url(../img/facebook.svg) 56% 80% no-repeat,
+					url(../img/linkedin.svg) 70% 80% no-repeat,
+					url(../img/twitter.svg) 84% 80% no-repeat;
+	padding-bottom: 80px;
+}
+.icon__block{
+	margin-bottom: 20px;
+}
+.icon__logo{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.logo{
+	text-align: center;
+}
+.logo img:not(:last-child){
+	margin-right: 25px;
+}
+.icon {
+	margin-bottom: 20px;
+}
+a {
+	color: blueviolet;
+	text-decoration: underline;
+}
+.content__text{
+	background-color: rgb(243, 147, 113);
+}
+.content__foto,
+.content__blog,
+.content__img1,
+.content__team {
+	text-align: center;
+}
+.content img {
+	border-radius: 15px;
+}
+.content__text p{
+	padding-bottom: 30px;
+}
